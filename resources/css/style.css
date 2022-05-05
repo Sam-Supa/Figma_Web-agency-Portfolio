@@ -21,8 +21,52 @@ header {
 
 nav {
     height: 60px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/ /*This for idicate the border while we are setting the template*/
     display: flex; /* make the text position to the same line*/
     justify-content: space-between; /*make the text has space between each element*/
     align-items: center; /*make elements center*/
+}
+
+nav ul {
+    display: flex;
+    list-style: none; /*to delete bullets*/
+    width: 255px;
+    /*border: 1px solid red;*/
+    justify-content: space-between; /*Pprovide the same result as the 'margin-right' belows*/
+}
+
+/* nav ul li {
+    margin-right: 60px;
+}*/ 
+
+nav ul li a {
+    text-decoration: none; /*delete the text underline*/
+    color: #505F98;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo h1 {
+    color: #37447E;
+    font-size: 26px;
+}
+
+.nav-btn {
+    text-align: center;
+    width: 160px;
+    height: 26px;
+    background: #111B47;
+    border-radius: 2px; /*make the border not sharp*/
+    display: flex; /*use flex because we can use align and justify to make the text center*/
+    align-items: center; /*vertical set*/
+    justify-content: center; /*horizontal set*/
+}
+
+.nav-btn a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
 }
