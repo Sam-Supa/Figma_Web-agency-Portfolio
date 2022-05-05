@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+header {
+    height: 1161px;
+    background: url('../img/designer_1\ \(1\).svg') no-repeat;
+    background-position: right bottom 50px; /*set the bg position*/
+}
+
+nav {
+    height: 60px;
+    border: 1px solid red;
+    display: flex; /* make the text position to the same line*/
+    justify-content: space-between; /*make the text has space between each element*/
+    align-items: center; /*make elements center*/
+}
