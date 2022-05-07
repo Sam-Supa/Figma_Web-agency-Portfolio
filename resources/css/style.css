@@ -125,3 +125,73 @@ nav ul li a {
     border-radius: 2px;
     
 }
+
+.powerful {
+    background: #fff;
+
+
+}
+
+.powerful-con {
+    display: flex;
+    justify-content: base space-between; /*To set everything on the left hand*/
+}
+
+.powerful-info {
+    margin-top: 160px;
+    width: 540px;
+    /*border: 1px solid red;*/
+}
+
+.powerful h2 {
+    color: #091133;
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 1rem;
+
+}
+
+.pw-p p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #6F7CB2;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+
+.pw-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.pw-items {
+    width: 225px;
+    /*border: 1px solid red;*/
+
+}
+
+.pw-items h3 {
+    font-size: 16px;
+    color: #091133;
+    margin: .5rem 0; /*top and bottom is .5 , left and right is 0*/
+  
+}
+
+.pw-items p {
+    font-size: 12px;
+    color: #5D6970;
+}
+
+.powerful-img {
+    width: 540px;  /*set the box size*/
+    
+    /*border: 1px solid red;*/
+}
+
+.powerful-img img {
+    width: 100%;
+     /*expand the img size to 100% of its box*/
+    margin-top: 100px;
+
+}
