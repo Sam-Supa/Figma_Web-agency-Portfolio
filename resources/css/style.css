@@ -310,3 +310,44 @@ nav ul li a {
     border-radius: 2px;
     margin-top: .5rem;
 }
+
+footer {
+    background: #c9d1f3;
+    height: 220px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+    border-bottom: 1px solid #cdd1d4;
+    align-items: center;
+}
+.footer-top h2 {
+    color: #37447E;
+}
+
+.footer-top .buy-now {
+    text-align: center;
+    width: 160px;
+    height: 26px;
+    background: #111B47;
+    border-radius: 2px; /*make the border not sharp*/
+    display: flex; /*use flex because we can use align and justify to make the text center*/
+    align-items: center; /*vertical set*/
+    justify-content: center; /*horizontal set*/
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-bottom {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btm-menu .social{
+    list-style: none;
+}
