@@ -128,6 +128,10 @@ nav ul li a {
 
 .powerful {
     background: #fff;
+    border-bottom-left-radius: 100% 100px; /*create the slope at the bottom*/
+    border-bottom-right-radius: 100% 100px; /*create the slope at the bottom*/
+    z-index: 99; /*create the slope at the bottom - color focus*/
+    position: relative; /*create the slope at the bottom - color-focus*/
 
 
 }
@@ -246,4 +250,63 @@ nav ul li a {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
+}
+
+.price {
+    background: #E7ECFF;
+    height: 800px;
+    margin-top: -4rem;
+    padding: 10rem 0; /*top+buttom is 10rem left-right is 0, this to make the text appear from the border of the .powerful which we've set the position to relative*/
+    display: flex;
+    align-items: center;
+}
+
+.price-info {
+    width: 600px;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+.price-info h2{
+    font-size: 36px;
+    color: #091133;
+    margin-bottom: 1rem;
+
+}
+
+.price-info p {
+    color: #6F7CB2;
+    line-height: 26px;
+}
+
+.fourty {
+    margin: 3rem 0;
+    text-align: center; 
+}
+
+.fourty .number {
+    display: block; /*make the text falls to the new line*/
+    font-weight: bold;
+    font-size: 50px;
+    color: #222F65;
+
+
+}
+
+.fourty .text {
+    color: #37447E;
+}
+
+.price-btm {
+    text-align: center;
+}
+
+.price-btm .price-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #111B47;
+    padding: .5rem 3rem;
+    border-radius: 2px;
+    margin-top: .5rem;
 }
